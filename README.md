@@ -1,4 +1,4 @@
-## 1.0.7更新内容
+## 1.0.8更新内容
 1.服务注册逻辑：
   (1)注册服务时，如果服务器设置了环境变量HOST_IP和SERVER_PORT，那么会把HOST_IP和SERVER_PORT作为服务的IP和PORT进行注册。
   (2)如果服务器没有设置环境变量，那么获取.env相关配置(SERVICE_IP,PORT)作为服务的IP和PORT进行注册。
